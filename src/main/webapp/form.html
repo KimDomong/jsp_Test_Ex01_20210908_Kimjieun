@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="TestFormEx" method ="post"> <!-- action : 어디에 받을지 ,method = 겟방식 포스트방식-->
+		<!-- text 타입으로 -->
+		아이디 : <input type="text" name="id" size="10" > <br/><br/>
+		비밀번호 : <input type="password" name="pw" size="10" > <br/><br/>
+		이름 : <input type="text" name="name" size="10" > <br/><br/>
+		E-mail1 : <input type="text" name="email1" size="10">
+		<select name="E-mail2">
+					<option value="naver.com"selected="selected">naver.com</option>
+					<option value="daum.net">daum.net</option>
+					<option value="gmail.net">gmail.net</option>
+					<option value="nate.com">nate.com</option>			  
+	    </select><br/><br/>
+		직업 : <input type="text" name="job" size="10" > <br/><br/>
+		
+			  <!-- 전송버튼 value값은 이름 -->
+			  <input type="submit" value="전송"><input type="reset" value="리셋">
+	</form>
+</body>
+</html>
