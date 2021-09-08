@@ -64,9 +64,10 @@ public class TestFormEx extends HttpServlet {
 		writer.println("이름 : " + name + "<br/>");
 		writer.println("이메일 : " + email1 + "@" + email2 +"<br/>");
 		
-		writer.println("직업 : " + job1 + "<br/>");
+	
 		if(job1=="")
 		writer.println("직업 : " + job2 + "<br/>");
+		else writer.println("직업 : " + job1 + "<br/>");
 		
 		writer.println("</body></thml>");
 		
